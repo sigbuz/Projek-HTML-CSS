@@ -1,0 +1,152 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Segoe UI';
+    margin: 0;
+}
+
+li, a {
+    list-style: none;
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+
+.header {
+    background-color: #0c0b0b;
+    height: 90px;
+}
+.header-logo {
+    font-size: 36px;
+    float: left;
+    padding:20px 40px;
+    color:antiquewhite;
+    font-weight: 500;
+    letter-spacing: 5px;
+}
+.header-list li{
+    float: left;
+    padding: 33px 20px;
+    list-style: none;
+    color:rgb(255, 255, 255)
+    
+}
+.main {
+    padding: 100px 80px;
+}
+.copy-container h1{
+    font-size: 140px;
+    text-align: center;
+    margin: 0;
+}
+.copy-container h2 {
+    font-size: 60px;
+    text-align: center;
+    margin: 0;
+    font-weight: 200;
+
+}
+.copy-container span {
+    color: yellow;
+}
+.copy-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section {
+    background-color:lightgrey;
+    padding: 40px 40px;
+}
+
+.section h1{
+    font-size: 25px;
+    text-align: center;
+}
+.section p {
+    text-align: center;
+}
+.contents {
+    margin: 80px 0px;
+    
+}
+
+.contents h1{
+    text-align: center;
+    font-size: 25px;
+}
+
+.contents-item {
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.contents-image {
+    /* display: flex; */
+    margin: 30px ;
+    /* flex: auto; */
+    text-align: center;
+    
+    
+}
+.contents-image img{
+    width: 300px;
+    
+}
+.contents-item h1 {
+    font-size: 25px;
+    text-align: center;
+}
+.contac {
+    background-color: lightgrey;
+    padding: 80px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contac h1 {
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+input, textarea {
+    width :700px;
+    margin-top :10px;
+    margin-bottom :30px;
+    padding:20px;
+    font-size:18px;
+    border:1px solid #dee7ec;
+    border-radius: 10px;
+    color: rgba(0, 0, 0, 0.8);
+}
+.button {
+    background-color: rgba(255, 255, 0, 0.658);
+    width: 500px;
+    font-weight: 600;
+}
+
+.footer {
+    background-color: rgb(87, 82, 82);
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 40px;
+}
+.footer-logo{
+    font-size: 36px;
+    float: left;
+    color: white;
+    font-weight: 500;
+    letter-spacing: 5px;
+
+}
+.footer-list li{
+    margin-bottom: 20px;
+    text-align: center;
+}
